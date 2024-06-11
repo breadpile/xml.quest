@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>pwakid's Domain Portfolio</title>
+<style>
+  body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #040f22;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+  }
+  .column2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+  }
+  .center-column {
+    width: 380px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .image-style {
+    border: 3px solid #487b95;
+    border-radius: 15px;
+    opacity: 0.5;
+    transition: opacity 0.9s ease;
+  }
+  .image-style:hover {
+    opacity: 1;
+  }
+  a {
+    color: #487b95;
+    text-decoration: none;
+    padding: 3px 0;
+  }
+  a:hover {
+    color: #7e857c;
+  }
+  .footer {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    background-color: #487b95;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="column">
+    <!-- Sorted links by length -->
+    <a href="https://loaf.ws" target="_blank" rel="noopener dofollow">loaf.ws</a>
+    <a href="https://dice.ws" target="_blank" rel="noopener dofollow">dice.ws</a>
+    <a href="https://clipn.co" target="_blank" rel="noopener dofollow">clipn.co</a>
+    <a href="https://err.quest" target="_blank" rel="noopener dofollow">err.quest</a>
+    <a href="https://rizzk.com" target="_blank" rel="noopener dofollow">rizzk.com</a>
+    <a href="https://swippa.co" target="_blank" rel="noopener dofollow">swippa.co</a>
+    <a href="https://linkdirs.com" target="_blank" rel="noopener dofollow">linkdirs.com</a>
+    <a href="https://uptomix.com" target="_blank" rel="noopener dofollow">uptomix.com</a>
+    <a href="https://breadpile.com" target="_blank" rel="noopener dofollow">breadpile.com</a>
+    <a href="https://pwarcade.com" target="_blank" rel="noopener dofollow">pwarcade.com</a>
+    <a href="https://analyticade.xyz" target="_blank" rel="noopener dofollow">analyticade.xyz</a>
+    <a href="https://cloudarcade.cloud" target="_blank" rel="noopener dofollow">cloudarcade.cloud</a>
+  </div>
+  <div class="center-column">
+    <img src="cat.png" alt="Descriptive Alt Text" class="image-style" id="domain-image">
+  </div>
+  <div class="column2">
+     <a href="https://mkdir.co" target="_blank" rel="noopener dofollow">mkdir.co</a>
+     <a href="https://pkgd.zip" target="_blank" rel="noopener dofollow">pkgd.zip</a>
+    <a href="https://exga.me" target="_blank" rel="noopener dofollow">exga.me</a>
+  
+    <a href="https://xml.quest" target="_blank" rel="noopener dofollow">xml.quest</a>
+    <a href="https://ailified.com" target="_blank" rel="noopener dofollow">ailified.com</a>
+    <a href="https://script.it.com" target="_blank" rel="noopener dofollow">script.it.com</a>
+    <a href="https://pwamail.com" target="_blank" rel="noopener dofollow">pwamail.com</a>
+    <a href="https://gamebang.co" target="_blank" rel="noopener dofollow">gamebang.co</a>
+    <a href="https://autopost.blog" target="_blank" rel="noopener dofollow">autopost.blog</a>
+    <a href="https://linknpark.com" target="_blank" rel="noopener dofollow">linknpark.com</a>
+    <a href="https://analyticade.com" target="_blank" rel="noopener dofollow">analyticade.com</a>
+
+    
+  </div>
+</div>
+<div class="footer">
+  A curated collection of premium domains by pwakid
+</div>
+<script>
+  // JavaScript to display domain name under the image on hover
+  document.querySelectorAll('a').forEach(link => {
+    link.addEventListener('mouseover', function() {
+      document.getElementById('domain-name').textContent = this.href.replace('http://', '');
+    });
+    link.addEventListener('mouseout', function() {
+      document.getElementById('domain-name').textContent = '@pwakid';
+    });
+  });
+</script>
+</body>
+</html>
